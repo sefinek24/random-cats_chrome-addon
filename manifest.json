@@ -1,0 +1,16 @@
+{
+  "name": "Random cat images",
+  "description": "Displays random cat images on the new tab page from Sefinek API.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "www/index.html",
+    "default_icon": {}
+  },
+  "chrome_url_overrides": {
+    "newtab": "www/index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
